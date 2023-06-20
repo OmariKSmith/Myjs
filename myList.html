@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>MyList</title>
+    <link
+      rel="styleSheet"
+      href="styles/myList.css"
+    >
+  </head>
+
+  <body>
+
+    <!--MODEL-->
+    <script src="data/todoList.js"></script>
+    
+    <!-- VIEW -->
+    <p>Todo List</p>
+
+    <div class="css-todo-grid-input">
+
+      <input class="js-input-name css-input-name" placeholder="Todo name">
+
+      <input type="date" class="js-input-due-date css-input-due-date" >
+
+      <button class="js-button-add-todo css-button-add-todo">Add</button>
+
+    </div>
+
+    <div class="js-div-list-todo css-todo-grid"></div>
+
+      <!-- CONTROLLER -->
+      <script src="scripts/myList.js"></script>
+    
+  </body>
+
+</html>
