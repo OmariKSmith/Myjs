@@ -1,6 +1,6 @@
 
 
-
+// init
 if(todoList.length > 0){
  addButtonEventListener();
  renderTodoList();
